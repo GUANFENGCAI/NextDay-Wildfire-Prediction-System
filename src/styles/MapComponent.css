@@ -1,0 +1,10 @@
+.fire-marker {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%; /* 使其成为圆形 */
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  

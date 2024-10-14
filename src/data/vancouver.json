@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "name": "Vancouver" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-123.2247, 49.2827],
+              [-123.1194, 49.2500],
+              [-123.0904, 49.2827],
+              [-123.2247, 49.2827]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+  

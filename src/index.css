@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Leaflet的样式 */
+@import 'leaflet/dist/leaflet.css';
+

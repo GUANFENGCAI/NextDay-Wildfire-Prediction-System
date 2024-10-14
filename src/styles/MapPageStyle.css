@@ -1,0 +1,35 @@
+/* 确保地图容器和父级元素有明确的高度 */
+.map-container {
+    height: 95vh; /* 70% 的视口高度 */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .leaflet-container {
+    height: 100%; /* Leaflet 容器占满父容器 */
+    width: 100%;  /* 占满父容器宽度 */
+  }
+  
+  .legend-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 220px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 1000; 
+    font-family: Arial, sans-serif;
+  }
+
+  .map-container {
+    position: relative; /* 确保子元素能根据它定位 */
+    height: 95vh;
+    width: 100%;
+  }
+  
+  
